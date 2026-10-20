@@ -1,6 +1,6 @@
 # Robot Shooting Targets — Unreal Engine
 
-A robot shooting target system created in Unreal Engine as part of the **LABA IT — Unreal Engine — C++** course. This repository showcases the project through a demonstration video, scene screenshots, and its Blueprint logic.
+A robot shooting target system created in Unreal Engine using Blueprints. This repository showcases the project through a demonstration video, scene screenshots, and its Blueprint logic.
 
 ## Demo Video
 
@@ -57,7 +57,9 @@ When the player leaves the sphere, the audio fades out over 0.3 seconds and `Emi
 
 ## Asset Credits
 
-Robot model: **Mech Drone** by **Willy Decarpentrie (skudgee)**, available on [Sketchfab](https://sketchfab.com/3d-models/mech-drone-8d06874aac5246c59edb4adbe3606e0e), under **Creative Commons Attribution (CC BY)**. The model was integrated into the robot target Blueprint with custom gameplay behavior.
+Robot model: **Utility Robot** by **nheitzman**, available on [Fab](https://www.fab.com/listings/420c79cc-8408-47a6-b6ef-58009bbc84d5).
+
+The model was integrated into the robot target Blueprint with custom player tracking, proximity damage, dynamic eye glow, audio feedback, and destruction behavior.
 
 ## Repository Contents
 
