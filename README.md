@@ -73,5 +73,5 @@ Added validity checks before updating the `EmissiveStrength` parameter on overla
 
 The interaction remains unchanged: entering the detection area fades in the robot’s sound and enables its glow; leaving fades out the sound and disables the glow.
 
-![Blueprint update 01](screenshots/screenshot-update-02)
-![Blueprint update 02](screenshots/screenshot-update-01)
+![Blueprint update 01](screenshots/screenshot-update-02.png)
+![Blueprint update 02](screenshots/screenshot-update-01.png)
