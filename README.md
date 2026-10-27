@@ -64,3 +64,14 @@ The model was integrated into the robot target Blueprint with custom player trac
 ## Repository Contents
 
 This repository contains visual documentation and a link to the demo video. It does not include a `.uproject` file, `.uasset` files, or C++ source code, so it cannot be opened as an Unreal Engine project. The moving platform is demonstrated in the video; its Blueprint is not included here.
+
+## 27-10-2026 Robot Material Initialization Fix
+
+Moved the creation of the robot’s dynamic material instance to `BeginPlay`, so it is initialized once instead of being recreated whenever the player enters the detection area.
+
+Added validity checks before updating the `EmissiveStrength` parameter on overlap events. This prevents `Accessed None` errors when the material reference is unavailable, including during level transitions.
+
+The interaction remains unchanged: entering the detection area fades in the robot’s sound and enables its glow; leaving fades out the sound and disables the glow.
+
+![Blueprint update 01](screenshots/screenshot-update-02)
+![Blueprint update 02](screenshots/screenshot-update-01)
